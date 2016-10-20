@@ -225,6 +225,8 @@ header .device-container .screen img {
   header .header-content .header-content-inner h1 {
     font-size: 50px;
   }
+
+
 }
 section {
   padding: 100px 0;
@@ -457,3 +459,13 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
+.privacy, .privacy a  {   
+
+  font-size: 20px;
+  color: white;
+   
+     margin-top: 60px;
+}
+
+ .privacy a:link,  .privacy a:active, .privacy a:visited { cursor: hand, color:white; text-decoration: none; outline: none }
