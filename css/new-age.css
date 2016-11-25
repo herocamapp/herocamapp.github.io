@@ -469,3 +469,15 @@ body {
 }
 
  .privacy a:link,  .privacy a:active, .privacy a:visited { cursor: hand, color:white; text-decoration: none; outline: none }
+
+ .github { background-color: #1d1123; color:white; font-sie: 18px;}
+
+ section.github .feature-item i {
+
+  font-size: 80px;
+  background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: #fdcb4f;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
