@@ -472,7 +472,7 @@ body {
 
  .github { background-color: #1d1123; color:white; font-sie: 18px;}
 
- section.github .feature-item i {
+ section.github a i {
 
   font-size: 80px;
   background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
