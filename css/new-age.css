@@ -43,6 +43,11 @@ hr {
 hr.light {
   border-color: white;
 }
+
+#logo { width: 100px; height: auto; padding-top: 130px; }
+
+
+
 h1,
 h2,
 h3,
@@ -152,10 +157,9 @@ p {
   }
 }
 header {
-  position: relative;
-  width: 100%;
-  min-height: auto;
-  overflow-y: hidden;
+  
+  
+  
   background: url("../img/bg-pattern.png"), #3c78ff;
   /* fallback for old browsers */
   background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left,#3c78ff, #3ca6ff);
@@ -166,18 +170,20 @@ header {
 }
 header .header-content {
   text-align: center;
-  padding: 150px 0 50px;
-  position: relative;
+  padding: 0px 0 50px;
+ 
 }
 header .header-content .header-content-inner {
-  position: relative;
-  max-width: 500px;
-  margin: 0 auto;
+  
+ 
 }
-header .header-content .header-content-inner h1 {
-  margin-top: 0;
+header .header-content .header-content-inner #text {
+
+  text-align: center;
+  margin-top: 40px;
   margin-bottom: 30px;
-  font-size: 30px;
+  font-size: 25px;
+  
 }
 header .header-content .header-content-inner .list-badges {
   margin-bottom: 25px;
@@ -198,9 +204,9 @@ header .device-container .screen img {
     min-height: 100%;
   }
   header .header-content {
-    text-align: left;
+    text-align: center;
     padding: 0;
-    height: 1100px;
+    height: 400px;
   }
 
 
@@ -215,6 +221,15 @@ header .device-container .screen img {
   header .header-content .header-content-inner h1 {
     font-size: 35px;
   }
+
+
+  header .header-content .header-content-inner #text {
+
+ 
+  margin-top: 140px;
+ 
+  
+}
   header .device-container {
     max-width: none;
     max-height: calc(0vh);
